@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/explorerFragment">
+
+    <fragment
+        android:id="@+id/explorerFragment"
+        android:name="br.pro.moraes.manipulacaodearq.ui.explorador.ExplorerFragment"
+        android:label="fragment_explorer"
+        tools:layout="@layout/fragment_explorer" />
+</navigation>
